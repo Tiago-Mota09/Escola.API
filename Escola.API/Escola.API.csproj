@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Users\vanderson.mota\Documents\ProjetosVisualStudio\Projeto2\Escola.API\Escola.API\bin\Debug\netcoreapp3.1</OutputPath>
+    <DocumentationFile>C:\Users\vanderson.mota\Documents\ProjetosVisualStudio\Projeto2\Escola.API\Escola.API\bin\Debug\netcoreapp3.1\Escola.API.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
+    <PackageReference Include="Dapper" Version="2.0.78" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="9.3.0" />
+    <PackageReference Include="Npgsql" Version="5.0.0" />
+    <PackageReference Include="Signa.Library" Version="4.3.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+
+</Project>
